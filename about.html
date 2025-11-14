@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Nitte Campus Bus Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="logo">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231e3a8a'/%3E%3Ctext x='50' y='65' font-size='50' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'%3EN%3C/text%3E%3C/svg%3E" alt="Nitte Logo" class="logo-img">
+                <span class="logo-text">Nitte Campus</span>
+            </div>
+        </div>
+
+        <div class="header-center">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search bus name, from, or to...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <div class="custom-dropdown" id="busesDropdown">
+                <button class="dropdown-btn" id="busesBtn">All Buses 🚌</button>
+                <div class="dropdown-menu" id="busesMenu"></div>
+            </div>
+
+            <div class="custom-dropdown" id="stopsDropdown">
+                <button class="dropdown-btn" id="stopsBtn">Select Nearest Stop ⊝</button>
+                <div class="dropdown-menu" id="stopsMenu"></div>
+            </div>
+
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="index.html" class="sidebar-item" data-page="home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="index.html" class="sidebar-item" data-page="routes">
+                <i class="fas fa-map-location-dot"></i>
+                <span>Bus Routes</span>
+            </a>
+            <a href="index.html" class="sidebar-item" data-page="timetable">
+                <i class="fas fa-clock"></i>
+                <span>Timetable View</span>
+            </a>
+            <a href="#" class="sidebar-item active" data-page="about">
+                <i class="fas fa-circle-info"></i>
+                <span>About</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="about-wrapper">
+            <!-- Header Section -->
+            <div class="about-header">
+                <h1><i class="fas fa-bus"></i> Nitte Bus Tracker</h1>
+                <p>Smart, real-time bus tracking system for campus transport.</p>
+            </div>
+
+            <!-- Project Overview Section -->
+            <div class="about-section">
+                <div class="section-icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <h2>Project Overview – Nitte Bus Tracker</h2>
+                <p>The Nitte Bus Tracker is a web-based application designed to help students and staff easily access information about campus bus routes and schedules. It provides a visual representation of each route, showing the path between the starting and destination points along with detailed stop information and timetables.</p>
+                <p>Built with a clean and responsive interface, the system aims to make campus transportation more organized, accessible, and user-friendly. Helping users quickly find the right bus and route information anytime.</p>
+            </div>
+
+            <!-- Key Features Section -->
+            <div class="about-section">
+                <div class="section-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>Key Features</h2>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-map"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Route Visualization:</h3>
+                            <p>Displays bus routes on a map with start and end points for clear travel paths.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-list"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Stop Details:</h3>
+                            <p>View detailed stop information for each bus, including timings and routes flow.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Interactive Timetable:</h3>
+                            <p>Check departure and arrival times for all buses in a simple, accessible layout.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Modern & Responsive UI:</h3>
+                            <p>A clean, glass-style interface that works seamlessly across desktop and mobile devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technologies Used Section -->
+            <div class="about-section">
+                <div class="section-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h2>Technologies Used</h2>
+                <div class="tech-tags">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">Javascript</span>
+                    <span class="tech-tag">JSON Data</span>
+                    <span class="tech-tag">CSS3</span>
+                </div>
+            </div>
+
+            <!-- Team Section -->
+            <div class="about-section">
+                <div class="section-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h2>Our Team</h2>
+                <p>This project was built by an enthusiastic team of students from NMAMIT as part of the Front-End Web Development Mini Project.</p>
+                <div class="team-members">
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p>Ishta P Jain</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p>Melisha Viola Dsouza</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p>Shreya G Amin</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="about-section">
+                <div class="section-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h2>Contact Us</h2>
+                <p>Have suggestions or feedback? Reach us at:</p>
+                <a href="nnm24cs352@nmamit.in" class="contact-email">nnm24cs352@nmamit.in</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="about.js"></script>
+</body>
+</html>

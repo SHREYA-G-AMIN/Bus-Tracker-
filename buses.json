@@ -1,0 +1,89 @@
+[
+  {
+    "busId": "1",
+    "name": "Mangalore → Nitte",
+    "from": "Mangalore",
+    "to": "Nitte Campus",
+    "travelTime": "50 min",
+    "departure": "7:00 AM",
+    "arrival": "7:50 AM",
+    "totalStops": 5,
+    "stops": [
+      {"stopNo": 1, "name": "Mangalore City Bus Stand", "arrival": "7:00", "departure": "7:02"},
+      {"stopNo": 2, "name": "Kadri Temple", "arrival": "7:10", "departure": "7:12"},
+      {"stopNo": 3, "name": "Kinnigoli", "arrival": "7:25", "departure": "7:27"},
+      {"stopNo": 4, "name": "Karkala", "arrival": "7:40", "departure": "7:42"},
+      {"stopNo": 5, "name": "Nitte Campus", "arrival": "7:50", "departure": "7:50"}
+    ],
+    "mapCoordinates": [
+      {"lat": 12.9141, "lng": 74.8560},
+      {"lat": 12.9650, "lng": 74.9240}
+    ],
+    "status": "On-Time",
+    "seatsAvailable": 20
+  },
+  {
+    "busId": "2",
+    "name": "Udupi → Nitte",
+    "from": "Udupi",
+    "to": "Nitte Campus",
+    "travelTime": "45 min",
+    "departure": "7:15 AM",
+    "arrival": "8:00 AM",
+    "totalStops": 4,
+    "stops": [
+      {"stopNo": 1, "name": "Udupi Bus Stand", "arrival": "7:15", "departure": "7:17"},
+      {"stopNo": 2, "name": "Kundapura", "arrival": "7:35", "departure": "7:37"},
+      {"stopNo": 3, "name": "Karkala", "arrival": "7:50", "departure": "7:52"},
+      {"stopNo": 4, "name": "Nitte Campus", "arrival": "8:00", "departure": "8:00"}
+    ],
+    "mapCoordinates": [
+      {"lat": 13.3409, "lng": 74.7430},
+      {"lat": 13.0120, "lng": 74.8190}
+    ],
+    "status": "On-Time",
+    "seatsAvailable": 18
+  },
+  {
+    "busId": "3",
+    "name": "Moodbidri → Nitte",
+    "from": "Moodbidri",
+    "to": "Nitte Campus",
+    "travelTime": "30 min",
+    "departure": "7:30 AM",
+    "arrival": "8:00 AM",
+    "totalStops": 3,
+    "stops": [
+      {"stopNo": 1, "name": "Moodbidri Bus Stand", "arrival": "7:30", "departure": "7:32"},
+      {"stopNo": 2, "name": "Karkala", "arrival": "7:50", "departure": "7:52"},
+      {"stopNo": 3, "name": "Nitte Campus", "arrival": "8:00", "departure": "8:00"}
+    ],
+    "mapCoordinates": [
+      {"lat": 13.0870, "lng": 74.9980},
+      {"lat": 13.0120, "lng": 74.8190}
+    ],
+    "status": "On-Time",
+    "seatsAvailable": 15
+  },
+  {
+    "busId": "4",
+    "name": "Belthangadi → Nitte",
+    "from": "Belthangadi",
+    "to": "Nitte Campus",
+    "travelTime": "40 min",
+    "departure": "7:45 AM",
+    "arrival": "8:25 AM",
+    "totalStops": 3,
+    "stops": [
+      {"stopNo": 1, "name": "Belthangadi Bus Stand", "arrival": "7:45", "departure": "7:47"},
+      {"stopNo": 2, "name": "Karkala", "arrival": "8:10", "departure": "8:12"},
+      {"stopNo": 3, "name": "Nitte Campus", "arrival": "8:25", "departure": "8:25"}
+    ],
+    "mapCoordinates": [
+      {"lat": 12.9360, "lng": 75.0410},
+      {"lat": 13.0120, "lng": 74.8190}
+    ],
+    "status": "On-Time",
+    "seatsAvailable": 16
+  }
+]
